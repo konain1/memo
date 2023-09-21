@@ -31,11 +31,11 @@ function App() {
       <header className="App-header">
       <p>{multi}</p>
         <p>{add}</p>
-        <button onClick={incrementAdd}>Add</button>
+        {/* <button onClick={incrementAdd}>Add</button> */}
         <p>{min}</p>
         <button onClick={decrementMin}>Min</button>
 
-       <Child/>
+       <Child incrementAdd={incrementAdd }/>
       </header>
 
     </div>
