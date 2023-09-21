@@ -5,7 +5,7 @@ function Child(props) {
     console.log('child')
   return (
     <div>
-    <button onClick={props.incrementAdd}> incrementFromchildComp</button>
+    <button onClick={props.incrementAdd}> Add</button>
     </div>
   )
 }
