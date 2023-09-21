@@ -1,5 +1,7 @@
 import './App.css';
 import { useState,useMemo } from 'react';
+import Child from './Child';
+
 
 function App() {
 
@@ -32,7 +34,10 @@ function App() {
         <button onClick={incrementAdd}>Add</button>
         <p>{min}</p>
         <button onClick={decrementMin}>Min</button>
+
+       <Child/>
       </header>
+
     </div>
   );
 }
